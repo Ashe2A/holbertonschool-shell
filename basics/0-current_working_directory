@@ -1,3 +1,2 @@
-#!/bash/bash
-$ pwd
-$
+#!/bin/bash
+pwd
