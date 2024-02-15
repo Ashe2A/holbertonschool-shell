@@ -13,6 +13,7 @@ This project is exhibiting basics of Shell scripts (bash) :
 The ```0-current_working_directory``` script displays the absolute path of the current directory upon execution.
 
    ```#!/bin/bash```
+   
    ```pwd```
 
 * The ```pwd``` (Print Working Directory) command prints the current working directory of the active shell client.
@@ -22,6 +23,7 @@ The ```0-current_working_directory``` script displays the absolute path of the c
 The ```1-listit``` script lists the files and directories of the current directory it's launched in.
 
    ```#!/bin/bash```
+   
    ```ls```
    
 * The ```ls``` (LiSt) command, without any parameters, lists the files and directories contained in the working directory.
@@ -31,6 +33,7 @@ The ```1-listit``` script lists the files and directories of the current directo
 The ```2-bring_me_home``` script redirects the current directory to the home directory, usually accessible with the variable ```$HOME```.
 
    ```#!/bin/bash```
+   
    ```cd```
    
 * The ```cd``` (Change Directory) command, without any parameters, change the working directory to the default home one.
@@ -40,6 +43,7 @@ The ```2-bring_me_home``` script redirects the current directory to the home dir
 The ```3-bring_me_home``` details the files and directories of the current directory it's launched in. It is called "long format".
 
    ```#!/bin/bash```
+   
    ```ls -l```
 
 * The ```-l``` (Long) option in the ```ls``` command specifies details on the listed files and directories ;
@@ -50,6 +54,7 @@ The ```3-bring_me_home``` details the files and directories of the current direc
 The ```4-listmorefiles``` details the files and directories, including hidden ones, of the current directory it's launched in.
 
    ```#!/bin/bash```
+   
    ```ls -la```
 
 * The ```-a``` option in the ```ls``` command includes hidden files and directories ;
