@@ -71,5 +71,15 @@ The ```5-listfilesdigitonly``` details the files and directories, including hidd
 ls -na
 ~~~
 
-* The ```-n``` (Numerics) option in the ```ls``` command converts user and group IDs to numerical;
+* The ```-n``` (Numerics) option in the ```ls``` command converts user and group IDs into numerical;
 * As ```-n``` needs long format to be effective, it already makes ```-l```'s work. Hence, the latter's use is optional;
+
+# 6. Welcome
+The ```6-firstdirectory``` creates a ```my_first_directory/``` directory in a ```tmp/``` directory, located in the root (```/```) directory.
+
+~~~
+#!/bin/bash
+mkdir /tmp/my_first_directory
+~~~
+
+* ```/tmp/``` needs to exist to create ```my_first_directory/```.
