@@ -2,15 +2,13 @@ This project is exhibiting basics of Shell scripts (bash) :
 
 0. Where am I?
    The "0-current_working_directory" script displays the absolute path of the current directory uupon executio, using the "pwd" command.
-
-   pwd
+   ```pwd```
 
 
 1. What's in there?
    The "1-listit" script lists the files and directories of the current directory it's launched i.
-
-   ls
-
+   ```ls```
 
 2. There is no place like home
-   The "2-bring_me_home" script redirect 
+   The "2-bring_me_home" script redirects the current directory to the home directory, usually accessible with the variable ```$HOME```. Here, the ```cd``` command without parameters change to the default home directory.
+   ```cd```
