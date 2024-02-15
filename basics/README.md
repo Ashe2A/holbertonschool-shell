@@ -75,7 +75,7 @@ ls -na
 * As ```-n``` needs long format to be effective, it already makes ```-l```'s work. Hence, the latter's use is optional;
 
 # 6. Welcome
-The ```6-firstdirectory``` creates a ```my_first_directory/``` directory in a ```tmp/``` directory, located in the root (```/```) directory.
+The ```6-firstdirectory``` creates a ```my_first_directory/``` directory in a ```tmp/```, located in the root (```/```) directory.
 
 ~~~
 #!/bin/bash
@@ -84,3 +84,14 @@ mkdir /tmp/my_first_directory
 
 * The ```mkdir``` (MaKe DIRectory) creates a directory. Starting the directory's path with ```/``` makes it absolute. Not using it makes it relative. Not using any path at all creates the directory in the working one. 
 * ```/tmp/``` needs to exist for that script to create ```my_first_directory/```.
+
+# 7. Betty in my first directory
+The ```7-file``` moves a file called ```betty``` located in that ```tmp/``` directory, to  in the root (```/```), to a ```my_first_directory/``` directory, located in that very same ```tmp/``` directory.
+
+~~~
+#!/bin/bash
+mv /tmp/betty /tmp/my_first_directory/
+~~~
+
+* The ```mv``` (MoVe) moves a file or a directory to a file or directory.
+* Without specifying the ending slash, ```betty``` would simply be renamed as ```my_first_directory``` and would technically stay in ```/tmp/```.
