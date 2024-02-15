@@ -52,5 +52,5 @@ The ```4-listmorefiles``` details the files and directories, including hidden on
    ```#!/bin/bash```
    ```ls -la```
 
-* The ```-a``` (Long) option in the ```ls``` command includes hidden files and directories ;
+* The ```-a``` option in the ```ls``` command includes hidden files and directories ;
 * Options can be combined into one (```-la```/```-al```), or separate (```-a -l```/```-l -a```) parts.
