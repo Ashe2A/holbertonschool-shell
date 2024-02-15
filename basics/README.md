@@ -82,4 +82,5 @@ The ```6-firstdirectory``` creates a ```my_first_directory/``` directory in a ``
 mkdir /tmp/my_first_directory
 ~~~
 
+* The ```mkdir``` (MaKe DIRectory) creates a directory. Starting the directory's path with ```/``` makes it absolute. Not using it makes it relative. Not using any path at all creates the directory in the working one. 
 * ```/tmp/``` needs to exist for that script to create ```my_first_directory/```.
