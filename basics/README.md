@@ -71,5 +71,5 @@ The ```5-listfilesdigitonly``` details the files and directories, including hidd
 ls -na
 ~~~
 
-* The ```-n``` (numbers) option in the ```ls``` command converts user and group IDs to numerical;
+* The ```-n``` (Numerics) option in the ```ls``` command converts user and group IDs to numerical;
 * As ```-n``` needs long format to be effective, it already makes ```-l```'s work. Hence, the latter's use is optional;
