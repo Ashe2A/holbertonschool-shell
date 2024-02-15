@@ -1,10 +1,10 @@
 This project is exhibiting basics of Shell scripts (bash) :
 
 # General notices before tasks
-* The ```#!/bin/bash``` header, also known as "shabang" (= sharp (#) + bang (!)), is used to define the file as a bash script, and not a binary (bin) file. Scripts are executable by using the ```./file_name``` syntax ;
-* Due to incompatibility between the ```echo``` command and the shabang header, it is essential to use a file editor, such as ```emacs``` or ```vi```/```vim``` ;
-* Due to these very editors automatically implementing an empty line upon saving a file, there is no need to add one ;
-* Due to owner of the file not necessarily corresponding to the user of the testing machine, there is a need to give an execution permission to users in the scripts' files. This is all done with the following command (there is no need to understand that command for now) : ```chmod u+x N-file_name```
+* The ```#!/bin/bash``` header, also known as "shabang" (= sharp (#) + bang (!)), is used to define the file as a bash script, and not a binary file. Scripts are executable by using the ```./file_name``` syntax;
+* Due to incompatibility between the ```echo``` command and the shabang header, it is essential to use a file editor, such as ```emacs``` or ```vi```/```vim```;
+* Due to these very editors automatically implementing an empty line upon saving a file, there is no need to add one;
+* Due to owner of the file not necessarily corresponding to the user of the testing machine, there is a need to give an execution permission to users in the scripts' files. This is all done with the following command (there is no need to understand that command for now) : ```chmod u+x N-file_name```.
 
 
 # 0. Where am I?
@@ -48,7 +48,7 @@ The ```3-bring_me_home``` details the files and directories of the current direc
 ls -l
 ~~~
 
-* The ```-l``` (Long) option in the ```ls``` command specifies details on the listed files and directories ;
+* The ```-l``` (Long) option in the ```ls``` command specifies details on the listed files and directories;
 * ```-l``` can be replaced by ```-long```.
 
 
@@ -60,5 +60,16 @@ The ```4-listmorefiles``` details the files and directories, including hidden on
 ls -la
 ~~~
 
-* The ```-a``` option in the ```ls``` command includes hidden files and directories ;
+* The ```-a``` option in the ```ls``` command includes hidden files and directories;
 * Options can be combined into one (```-la```/```-al```), or separate (```-a -l```/```-l -a```) parts.
+
+# 5. I love numbers
+The ```5-listfilesdigitonly``` details the files and directories, including hidden ones, of the current directory it's launched in. User and group IDs of the content's owner are displayed numerically.
+
+~~~
+#!/bin/bash
+ls -na
+~~~
+
+* The ```-n``` (numbers) option in the ```ls``` command converts user and group IDs to numerical;
+* As ```-n``` needs long format to be effective, it already makes ```-l```'s work. Hence, the latter's use is optional;
