@@ -21,3 +21,11 @@ The ```2-bring_me_home``` script redirects the current directory to the home dir
    ```cd```
    
 * The ```cd``` (Change Directory) command, without any parameters, change the working directory to the default home one.
+
+# 3. The long format
+The ```3-bring_me_home``` details the files and directories of the current directory it's launched in.
+
+   ```ls -l```
+
+* The ```-l``` (Long) option in the ```ls``` command ;
+* ```-l``` can be replaced by ```-long```.
