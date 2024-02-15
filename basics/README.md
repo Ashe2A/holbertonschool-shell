@@ -82,4 +82,4 @@ The ```6-firstdirectory``` creates a ```my_first_directory/``` directory in a ``
 mkdir /tmp/my_first_directory
 ~~~
 
-* ```/tmp/``` needs to exist to create ```my_first_directory/```.
+* ```/tmp/``` needs to exist for that script to create ```my_first_directory/```.
