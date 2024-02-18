@@ -1,2 +1,2 @@
 #!/bin/bash
-cat $1 < sort
+cat $1 | sort -uniq
